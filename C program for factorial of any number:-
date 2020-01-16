@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+
+Void main()
+{
+ Int fact=1,i,n;
+ Clrscr();
+ Printf("enter the numyto find factorial");
+  Scanf("%d",&n);
+ For(i=1;i<=n;i++)
+{
+ fact=fact*i;
+}
+ Printf("factorial of %d is = %d",n,fact);
+
+Getch();
+}
